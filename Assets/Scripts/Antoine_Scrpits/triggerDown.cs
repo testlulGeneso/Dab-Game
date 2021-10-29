@@ -7,6 +7,7 @@ public class triggerDown : MonoBehaviour
 
     public Scoring score;
     public bool test;
+    public Animator anim;
 
     private void Start()
     {
@@ -23,6 +24,7 @@ public class triggerDown : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.DownArrow) && test)
         {
             score.score += 5;
+            anim.SetTrigger("Dab_Bot");
         }
     }
     private void OnTriggerExit2D(Collider2D collision)
