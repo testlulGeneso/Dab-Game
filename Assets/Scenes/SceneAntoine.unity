@@ -1836,7 +1836,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 601dcf49423dad5419bb487d53625d05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameScene: SampleScene
+  nameScene: SceneXavier
 --- !u!114 &1078526113
 MonoBehaviour:
   m_ObjectHideFlags: 0
