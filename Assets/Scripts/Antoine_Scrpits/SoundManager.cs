@@ -1,4 +1,7 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SoundManager : MonoBehaviour
 {
@@ -9,7 +12,6 @@ public class SoundManager : MonoBehaviour
     void Start()
     {
         audioSource.clip = playlist[0];
-        audioSource.Play;
     }
 
     // Update is called once per frame
