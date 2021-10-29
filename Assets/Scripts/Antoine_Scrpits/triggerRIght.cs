@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class trigger : MonoBehaviour
+public class triggerRIght : MonoBehaviour
 {
 
     public int score;
@@ -21,7 +21,7 @@ public class trigger : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.LeftArrow) && test)
+        if (Input.GetKeyDown(KeyCode.RightArrow) && test)
         {
             score += 5;
         }
