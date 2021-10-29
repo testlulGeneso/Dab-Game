@@ -1,4 +1,5 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 <<<<<<< main
 <<<<<<< main
 guid: 8862a6bd31e518748ac4e26770f05f9d
@@ -8,6 +9,9 @@ guid: 601fd7b8c8637f94ea9de7038ac3b0d2
 =======
 guid: 601fd7b8c8637f94ea9de7038ac3b0d2
 >>>>>>> Add Dab Idle
+=======
+guid: 601fd7b8c8637f94ea9de7038ac3b0d2
+>>>>>>> Grégoire
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
