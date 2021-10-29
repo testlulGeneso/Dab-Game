@@ -5,12 +5,11 @@ using UnityEngine;
 public class trigger : MonoBehaviour
 {
 
-    public int score;
+    public Scoring score;
     public bool test;
 
     private void Start()
     {
-        score = 0;
         test = false;
     }
     private void OnTriggerEnter2D(Collider2D collision)
@@ -23,7 +22,7 @@ public class trigger : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.LeftArrow) && test)
         {
-            score += 5;
+            score.score += 5;
         }
     }
     private void OnTriggerExit2D(Collider2D collision)

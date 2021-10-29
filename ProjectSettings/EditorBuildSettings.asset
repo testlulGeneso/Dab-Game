@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SceneXavier.unity
     guid: eb314d78200452c43be3df4e0839d637
+  - enabled: 1
+    path: Assets/Scenes/SceneJeu.unity
+    guid: f7a3069de7160e24985e886a6c64d803
   m_configObjects: {}
