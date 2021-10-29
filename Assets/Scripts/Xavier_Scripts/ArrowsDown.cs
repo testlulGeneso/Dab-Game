@@ -5,7 +5,7 @@ using UnityEngine;
 public class ArrowsDown : MonoBehaviour
 {
    
-    float arrowsSpeed = 10;
+    float arrowsSpeed = 15;
     
     void Start()
     {
